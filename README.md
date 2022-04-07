@@ -15,5 +15,8 @@ Result file contains all the columns of input file and two additional columns ha
 
 
 This package can be downloaded using the following command <br />
-pip install TOPSIS-KARAN-101903072
+pip install TOPSIS-KARAN-101903072  <br />
 
+Run the program through command line as: <br />
+Usages: python <program.py> <InputDataFile> <Weights> <Impacts> <ResultFileName> <br />
+Example: python karan.py topsis-data.csv “1,1,1,2” “+,+,-,+” topsis-result.csv<br />
